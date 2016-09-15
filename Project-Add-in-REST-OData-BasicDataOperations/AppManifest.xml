@@ -7,7 +7,7 @@
      SharePointMinVersion="15.0.0.0"
 >
   <Properties>
-    <Title>Project-Add-in-REST-OData-BasicDataOperations</Title>
+    <Title>Project-Add-in-REST-BasicDataOperations</Title>
     <StartPage>~remoteAppUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
   </Properties>
 

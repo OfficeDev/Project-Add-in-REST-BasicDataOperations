@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Project_Add_in_REST_OData_BasicDataOperationsWeb
+namespace Project_Add_in_REST_BasicDataOp
 {
     //Helper calss to represent a project to  bind to the grid view.
     public class Project

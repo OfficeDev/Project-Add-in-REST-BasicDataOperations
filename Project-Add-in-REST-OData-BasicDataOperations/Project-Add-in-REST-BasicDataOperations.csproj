@@ -7,8 +7,8 @@
     <ProjectGuid>{CDE76E8E-DCB8-47E7-A63A-70A0CDB88999}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SharePoint_Add_in_REST_OData_BasicDataOperations</RootNamespace>
-    <AssemblyName>SharePoint-Add-in-REST-OData-BasicDataOperations</AssemblyName>
+    <RootNamespace>SharePoint_Add_in_REST_BasicDataOperations</RootNamespace>
+    <AssemblyName>SharePoint-Add-in-REST-BasicDataOperations</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
@@ -48,9 +48,9 @@
     </AppManifestFile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Project-Add-in-REST-OData-BasicDataOperationsWeb\Project-Add-in-REST-OData-BasicDataOperationsWeb.csproj">
+    <ProjectReference Include="..\Project-Add-in-REST-OData-BasicDataOperationsWeb\Project-Add-in-REST-BasicDataOperationsWeb.csproj">
       <Project>{32170F89-0BF8-4017-9846-D2C0D81581AE}</Project>
-      <Name>SharePoint-Add-in-REST-OData-BasicDataOperationsWeb</Name>
+      <Name>Project-Add-in-REST-BasicDataOperationsWeb</Name>
       <Private>True</Private>
       <RoleType>Web</RoleType>
       <OutputItemType>SharePointWebProjectOutput</OutputItemType>

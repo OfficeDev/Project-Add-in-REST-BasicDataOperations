@@ -13,7 +13,7 @@ using System.Web.UI.WebControls;
 using System.Xml;
 
 
-namespace Project_Add_in_REST_OData_BasicDataOperationsWeb
+namespace Project_Add_in_REST_BasicDataOp
 {
     public partial class Default : System.Web.UI.Page
     {

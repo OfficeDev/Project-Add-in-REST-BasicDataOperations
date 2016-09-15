@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Project_Add_in_REST_OData_BasicDataOperationsWeb {
+namespace Project_Add_in_REST_BasicDataOp {
     
     
     public partial class Default {

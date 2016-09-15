@@ -9,7 +9,7 @@ using System.Security.Principal;
 using System.Web;
 using System.Web.Configuration;
 
-namespace Project_Add_in_REST_OData_BasicDataOperationsWeb
+namespace Project_Add_in_REST_BasicDataOp
 {
     /// <summary>
     /// Encapsulates all the information from SharePoint.
