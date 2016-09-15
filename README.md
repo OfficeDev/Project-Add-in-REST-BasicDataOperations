@@ -1,4 +1,4 @@
-# Basic CRUD operations in SharePoint Add-ins using the REST/OData APIs #
+# Basic CRUD operations in Project Add-ins using the REST APIs #
 
 ## Summary
 Use the Project REST endpoints to perform create, read, update, and delete operations onprojects from a Project Add-in.
