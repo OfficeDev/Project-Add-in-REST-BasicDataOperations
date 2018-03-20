@@ -1,24 +1,17 @@
-# Basic CRUD operations in Project Add-ins using the REST APIs #
+# Basic CRUD operations in Project add-ins using the REST APIs #
 
-## Summary
 Use the Project REST endpoints to perform create, read, update, and delete operations onprojects from a Project Add-in.
 
-### Applies to ###
+**Applies to**
 -  Project Online and on-premise Project 2013 and later 
 
-Scenario
-
-
-As a Project/Program/Portfolio portfolio manager, I would like to use an app that displays the projects and allows me create, update and delete projects.
-
-
-### Using App
+## Using the add-in
 
 1.	Update the PWA site in the Project-Add-in-REST-OData-BasicDataOperations Project
 2.	Update the login/password to your PWA site.
 3.	Run the app
 
-### Prerequisites
+## Prerequisites
 To use this code sample, you need the following:
 
 * PWA Site (Project Online, Project Server 2013 or Project Server 2016)
