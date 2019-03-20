@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Project
+- Office 365
+languages:
+- C#
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 9/14/2016 11:21:49 PM
+---
 # Basic CRUD operations in Project Add-ins using the REST APIs #
 
 ## Summary
