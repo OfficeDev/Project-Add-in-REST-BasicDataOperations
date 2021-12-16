@@ -1,52 +1,26 @@
----
-page_type: sample
-products:
-- office-project
-- office-365
-languages:
-- csharp
-extensions:
-  contentType: samples
-  technologies:
-  - Add-ins
-  createdDate: 9/14/2016 11:21:49 PM
----
-
-# Basic CRUD operations in Project Add-ins using the REST APIs
-
-## Summary
+# Basic CRUD operations in Project add-ins using the REST APIs #
 
 Use the Project REST endpoints to perform create, read, update, and delete operations onprojects from a Project Add-in.
 
-### Applies to
-
+**Applies to**
 -  Project Online and on-premise Project 2013 and later 
 
-Scenario
-
-
-As a Project/Program/Portfolio portfolio manager, I would like to use an app that displays the projects and allows me create, update and delete projects.
-
-
-### Using App
+## Using the add-in
 
 1.	Update the PWA site in the Project-Add-in-REST-OData-BasicDataOperations Project
 2.	Update the login/password to your PWA site.
 3.	Run the app
 
-### Prerequisites
-
+## Prerequisites
 To use this code sample, you need the following:
 
 * PWA Site (Project Online, Project Server 2013 or Project Server 2016)
 * Visual Studio 2013 or later 
 
 ## How the sample affects your tenant data
-
 This sample runs CSOM methods that create, edit the project name and delete projects in the PWA instance for the specified user. 
 
 ## Additional resources
-
 * [Local and Enterprise Custom Fields](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)
 
 * [ProjectContext class](https://msdn.microsoft.com/en-us/library/office/microsoft.projectserver.client.projectcontext_di_pj14mref.aspx)
@@ -59,17 +33,22 @@ This sample runs CSOM methods that create, edit the project name and delete proj
 
 Copyright (c) 2016 Microsoft. All rights reserved.
 
-## Prerequisites
+
+
+----------
+## Prerequisites ##
 This sample requires the following:
+
 
 - A SharePoint 2013 (or later) development environment that is configured for add-in isolation and OAuth. (A SharePoint Online Developer Site is automatically configured. For an on premise development environment, see [Set up an on-premises development environment for SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp179923.aspx) and [Use an Office 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](https://msdn.microsoft.com/library/office/dn155905.aspx).) 
 
+
 - Visual Studio and the Office Developer Tools for Visual Studio installed on your developer computer 
+
 
 - Basic familiarity with RESTful web services and OData
 
-## Description of the code
-
+## Description of the code ##
 The code that uses the REST APIs is located in the Default.aspx.cs file of the SharePoint-Add-in-REST-OData-BasicDataOperationsWeb project. The Default.aspx page of the add-in appears after you install and launch the add-in and looks similar to the following.
 
 ![The add-in start page with a table listing all the list on the site by name and ID.](/description/fig1.gif) 
@@ -89,7 +68,7 @@ The sample demonstrates the following:
 - Best practices for retrieving form digest and eTag values that are required for Create and Update operations on lists and list items. 
 
 
-## To use the sample
+## To use the sample #
 
 12. Open **Visual Studio** as an administrator.
 13. Open the .sln file.
@@ -131,7 +110,8 @@ The sample demonstrates the following:
 ## Questions and comments
 
 We'd love to get your feedback on this sample. You can send your questions and suggestions to us in the [Issues](https://github.com/OfficeDev/SharePoint-Add-in-REST-OData-BasicDataOperations/issues) section of this repository.
-
+  
+<a name="resources"/>
 ## Additional resources
 
 [Get to know the SharePoint 2013 REST service](https://msdn.microsoft.com/library/fp142380.aspx).
@@ -142,8 +122,14 @@ We'd love to get your feedback on this sample. You can send your questions and s
 
 [OData: AtomPub Format](http://www.odata.org/developers/protocols/atom-format).
 
-### Copyright
+### Copyright ###
 
 Copyright (c) Microsoft. All rights reserved.
 
+
+
+
+
+
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
