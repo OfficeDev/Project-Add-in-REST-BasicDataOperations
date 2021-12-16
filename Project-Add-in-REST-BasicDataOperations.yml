@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: 'Project add-in: Basic CRUD operations using the REST APIs'
+  path: ''
+  description: Use the Project REST endpoints to perform create, read, update, and delete operations onprojects from a Project Add-in.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: NadinMerali
+  platforms: []
+  languages:
+  - C#
+  extensions:
+    products:
+    - Project
+    scenarios: []
